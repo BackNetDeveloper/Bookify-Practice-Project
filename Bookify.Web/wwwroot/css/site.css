@@ -1,0 +1,28 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+/* Start Override theme */
+.form-floating > .form-select {
+    padding-bottom: 0.225rem;
+}
+/* End Override theme */
+/* Start Custom Styles */
+.dt-spinner + div{
+    display:none !important;
+}
+/* End Custom Styles */
